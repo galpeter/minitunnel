@@ -13,7 +13,6 @@ which will be processed as a HTTP request.
   * `connectionLimit` {integer} Maximum number of simultaneous tunnel connections to the Tunnel Server (default: `10`).
   * `useSSL` {boolean} If `true` the tunnel will use SSL connections. (default: `false`)
   * Other options from `https.Server`.
-
 * `callback` {Function} Callback used for the `request` event.
 
 **Example**
